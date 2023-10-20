@@ -1,0 +1,16 @@
+*Working directory
+git status
+git checkout -- file.txt
+git checkout .
+git clean -xdf
+
+*Staging area (Index)
+git reset -- file.txt
+
+*Local branch
+git log
+git reset HEAD^^ (HEAD~2)
+git commit --amend -m “commit message”
+
+*Remote repository
+git revert <sha1>

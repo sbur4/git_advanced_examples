@@ -1,0 +1,14 @@
+git init
+git add * / add *.txt
+git commit -m 'first commit'
+# git commit --amend
+git branch -M master # git branch -d  list
+git remote add origin https://github.com/sbur4/GIT.git
+git push -u origin master
+
+git status 
+git status -s
+
+git diff # what chaned
+git log #history MVC 
+git log --stat

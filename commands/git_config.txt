@@ -1,0 +1,24 @@
+1.Установка имени и электронной почты
+git config --global user.name ""
+git config --global user.email @gmail.com
+
+git config
+git config --list
+git config --global --list
+git config --local --list
+git config --system --list
+
+2.Параметры установки окончаний строк
+git config --global core.autocrlf true
+git config --global core.safecrlf warn
+
+3.Установка отображения unicode
+git config --global core.quotepath off
+
+4.
+mkdir hello
+cd hello
+touch hello.html
+
+5. Удаление настройки:
+git config --unset user.email

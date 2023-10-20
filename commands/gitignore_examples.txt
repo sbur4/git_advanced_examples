@@ -1,0 +1,6 @@
+To ignore all files and folders named "examples," you can use the following rules:
+/examples
+/examples/
+
+To ignore all files and folders, you can use the following rule:
+/*

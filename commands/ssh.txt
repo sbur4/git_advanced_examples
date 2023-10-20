@@ -1,0 +1,35 @@
+1.Go to "Git Bash" just like cmd. Right click and "Run as Administrator".
+
+Type ssh-keygen or ssh-keygen -t rsa -b 4096 -C "demo@example.com"
+
+Press enter.
+
+2.It will ask you to save the key to the specific directory.
+> Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+
+3.Press enter. It will prompt you to type password or enter without password.
+
+The public key will be created to the specific directory.
++---[RSA 4096]----+
+|      .   .o++B=B|
+|     . . ..+oBBO*|
+|    .   + . ++X==|
+|     . o . o.+o=o|
+|    E   S . .oo+o|
+|           . o+..|
+|            . o  |
+|               . |
+|                 |
++----[SHA256]-----+
+
+3.Now go to the directory and open .ssh folder.
+
+You'll see a file id_rsa.pub. Open it on notepad. Copy all text from it.
+
+4.Go to https://gitlab.com/-/profile/keys or
+
+Paste here in the "key" textfield.
+
+Now click on the "Title" below. It will automatically get filled.
+
+Then click "Add key".
